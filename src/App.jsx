@@ -1,6 +1,8 @@
+/* eslint-disable import/order */
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Layout from 'layouts/Layout';
-import Home from 'pages/Home';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Layout } from 'layouts/Layout';
+import Home from 'pages/home';
 
 const App = () => (
   <BrowserRouter>
