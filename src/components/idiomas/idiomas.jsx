@@ -21,13 +21,13 @@ const Idiomas = ({ idiomas }) => (
       <IdiomasItem idioma={idiomas[0]} />
       <img
         className='rounded-full image-flag mx-4 mb-5'
-        src={spanish}
+        src={french}
         alt='spanish'
       />
       <IdiomasItem idioma={idiomas[1]} />
       <img
         className='rounded-full image-flag mx-4 mb-5'
-        src={french}
+        src={spanish}
         alt='french'
       />
       <IdiomasItem idioma={idiomas[2]} />

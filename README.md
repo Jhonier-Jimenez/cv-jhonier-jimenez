@@ -1,3 +1,12 @@
+# Notas
+
+- Todo el contenido de la aplicación depende de los objetos dentro del Hook useDatos. Basta con
+  modificar los datos en este hook, agregar una foto, y así cualquier persona puede
+  obtener su propio CV usando esta app.
+- Los componentes de experiencia laboral, habilidades, idiomas,cursos son totalmente escalables
+- Para esta versión no fue necesario escalabilizar el componente de estudios, pero
+  se puede realizar en una version posterior.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

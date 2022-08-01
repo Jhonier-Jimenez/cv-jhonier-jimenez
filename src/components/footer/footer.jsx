@@ -5,7 +5,7 @@ const Footer = ({ redesSociales }) => (
   <div className='flex flex-col p-3 tablet:flex-row desktop:bg-black w-full justify-around'>
     <a
       href='https://www.facebook.com/jhonier.jimenez.5/'
-      className='flex justify-center items-center mb-2 desktop:text-white'
+      className='flex justify-center items-center mb-2 desktop:text-white text-center'
     >
       <BsFacebook size={28} classname='footer-icon' />
       <h2 className='mx-4 footer-link'>{redesSociales[0]}</h2>
@@ -13,7 +13,7 @@ const Footer = ({ redesSociales }) => (
 
     <a
       href='https://github.com/Jhonier-Jimenez'
-      className='flex justify-center items-center mb-2 desktop:text-white'
+      className='flex justify-center items-center mb-2 desktop:text-white text-center'
     >
       <BsGithub size={28} classname='footer-icon' />
       <h2 className='mx-4 footer-link'>{redesSociales[1]}</h2>
@@ -21,7 +21,7 @@ const Footer = ({ redesSociales }) => (
 
     <a
       href='https://www.cloudskillsboost.google/public_profiles/d2f1f278-fe8a-4288-a3ed-4fc3c2fc2f80'
-      className='flex justify-center items-center mb-2 desktop:text-white'
+      className='flex justify-center items-center mb-2 desktop:text-white text-center'
     >
       <BsGoogle size={28} classname='footer-icon' />
       <h2 className='mx-4 footer-link'>{redesSociales[2]}</h2>
@@ -29,7 +29,7 @@ const Footer = ({ redesSociales }) => (
 
     <a
       href='https://www.linkedin.com/in/jhonier-jimenez/'
-      className='flex justify-center items-center mb-2 desktop:text-white'
+      className='flex justify-center items-center mb-2 desktop:text-white text-center'
     >
       <BsLinkedin size={28} classname='footer-icon' />
       <h2 className='mx-4 footer-link'>{redesSociales[3]}</h2>
