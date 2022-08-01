@@ -1,17 +1,15 @@
+import React from 'react';
 import { Outlet } from 'react-router-dom';
+import Footer from 'components/footer/footer';
+import { useDatos } from 'hooks/datos/useDatos';
 
-// delete this
-const Layout = () => <Outlet />;
+const { redesSociales } = useDatos();
 
-// replace it with your own layout
-// const Layout = () => {
-//   return (
-//     <>
-//       <>
-//         <Outlet />
-//       </>
-//     </>
-//   );
-// };
+const Layout = () => (
+  <main className='flex flex-col'>
+    <Outlet />
+    <Footer redesSociales={redesSociales} />
+  </main>
+);
 
-export default Layout;
+export { Layout };
